@@ -1,0 +1,15 @@
+{
+  "pillars": {
+    "year": "甲子",
+    "month": "戊辰",
+    "day": "甲子",
+    "hour": "甲戌"
+  },
+  "auxiliary": {
+    "method": "jie-month-five-tigers-v1",
+    "includeRelations": true
+  },
+  "metadata": {
+    "fixture": "synthetic-symbols-only; not a real birth chart"
+  }
+}

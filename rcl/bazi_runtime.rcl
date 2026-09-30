@@ -1,0 +1,36 @@
+reality BaziRuntime {
+  facet runtime.name : Text = "BZR"
+  facet runtime.version : Number = 30
+  facet runtime.status : Text = "boot"
+  facet core.schema : Text = "bazi.chart.v1"
+  facet state.schema : Text = "bazi.state.v1"
+  facet signal_graph.schema : Text = "bazi.signal-graph.v1"
+  facet semantic.schema : Text = "bazi.interpretation.v2"
+  facet event_taxonomy : Text = "open-ended"
+  facet arbitration.mode : Text = "non-blending"
+  facet pipeline.stage_count : Number = 7
+  facet probability_claim : Text = "forbidden"
+
+  subject compiler {
+    warrant runtime.compile on runtime
+  }
+
+  emergence runtime_contract {
+    cause compiler
+    when runtime.version == 30
+    needs runtime.compile on runtime
+    alter runtime.status <- "ready"
+    preserve core.schema == "bazi.chart.v1"
+      and state.schema == "bazi.state.v1"
+      and signal_graph.schema == "bazi.signal-graph.v1"
+      and semantic.schema == "bazi.interpretation.v2"
+      and event_taxonomy == "open-ended"
+      and arbitration.mode == "non-blending"
+      and pipeline.stage_count == 7
+      and probability_claim == "forbidden"
+    witness "bazi:runtime-contract:v0.3.0"
+  }
+
+  foresee runtime_contract
+  realize runtime_contract
+}
