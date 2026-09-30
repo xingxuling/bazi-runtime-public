@@ -1,0 +1,178 @@
+{
+  "name": "bazi-runtime",
+  "version": "0.4.0",
+  "fileCount": 34,
+  "manifestExcludesSelf": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 70,
+      "sha256": "073083574e57584ac8a7b10a36d03c68ae6bd9941f50a2f4c4e9ddc6e3fe79c0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1670,
+      "sha256": "a6f762194a1566c81a4c597c159430bcc6eecc28cc6a9bce29a356574b3b5ea5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "eb91105de659709ab24bdd8dfcf2e78d6dca3191c1b0e8a297f411dbc41eac76"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 65,
+      "sha256": "f3b4e315af4c7d015c40d43af6819d2d6f5f0681280f553315e69c99ba183b44"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5845,
+      "sha256": "182bc559f2a522a23b9f848e935079eb19615e1931e02a71731589d84b887f75"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2026,
+      "sha256": "c815a94367944f9cf25a80c2bb2bc28d61c74501db0e857779165d3518e6edb8"
+    },
+    {
+      "path": "bazi_runtime/__init__.py",
+      "bytes": 962,
+      "sha256": "15684292472b3341415539b449919dcae45dbf35e68db17f7a16e15b16b58e9d"
+    },
+    {
+      "path": "bazi_runtime/arbiter.py",
+      "bytes": 798,
+      "sha256": "717ecf04f2c30c514acc78c738d4229fe1c801334c7b9ef72dd317487384789a"
+    },
+    {
+      "path": "bazi_runtime/assist.py",
+      "bytes": 14655,
+      "sha256": "f397d4c66dac5356d0eab42422609a52fef085527c36531df2f0feb26c66faff"
+    },
+    {
+      "path": "bazi_runtime/auxiliary.py",
+      "bytes": 5435,
+      "sha256": "03768b6a94f0935737839ddc42e03eec93b765758d706f8b267cb1dda2b3e7ea"
+    },
+    {
+      "path": "bazi_runtime/cli.py",
+      "bytes": 739,
+      "sha256": "ef11ab95044da662594a0190f9148e0798d702e89f0184302618027c2f2ced69"
+    },
+    {
+      "path": "bazi_runtime/core.py",
+      "bytes": 9730,
+      "sha256": "5693ce70ef984be5e648b4b86a351fa98e51a618a973d46880ec56355a3e15a9"
+    },
+    {
+      "path": "bazi_runtime/narrator.py",
+      "bytes": 1845,
+      "sha256": "9d30e72ad10d9a125d15f3f9a4199f5653ea0b1b7c5d6c72b85d8c602e64115a"
+    },
+    {
+      "path": "bazi_runtime/protocol.py",
+      "bytes": 3740,
+      "sha256": "a9658d9aa43f5f976b06541cbf0a901c8d11af1041e7ee90d253ad620b8666c0"
+    },
+    {
+      "path": "bazi_runtime/relation.py",
+      "bytes": 1106,
+      "sha256": "89732200d38301da14b5b1b231bfcbcb9a10ad9d7d9bed7d8abb621b279de15d"
+    },
+    {
+      "path": "bazi_runtime/schools.py",
+      "bytes": 3115,
+      "sha256": "d1870468a5e5a2c2ac9843b5c9ba075427ebb1db299729f7d9434be74ae477f1"
+    },
+    {
+      "path": "bazi_runtime/semantic.py",
+      "bytes": 2130,
+      "sha256": "aafbed759041f599539e2f6ca19f3695f312ded3a6e09da673c6528e4ee361f4"
+    },
+    {
+      "path": "bazi_runtime/state.py",
+      "bytes": 5948,
+      "sha256": "d753f5c1d3daca8b2ff0450945f47b1645477c640e4d2d2a9c03c091fde87110"
+    },
+    {
+      "path": "bazi_runtime/transit.py",
+      "bytes": 7735,
+      "sha256": "8ac70f83d23cdf8b2e6dc9f9ec6b06b7f89e97e601ae277b4cea7e7fa3b2477a"
+    },
+    {
+      "path": "docs/AUXILIARY_PILLARS.md",
+      "bytes": 4037,
+      "sha256": "fdb49c468ccdaca019fe0f7ffcd3394cce670e9683207a4fe76ddc2f10346e71"
+    },
+    {
+      "path": "evidence/TESTS_V040_PUBLIC.log",
+      "bytes": 1941,
+      "sha256": "1402a97b166949ddc98df6fa4b32c6a66570d3e2f3d2fecf60f7e539ece653db"
+    },
+    {
+      "path": "evidence/VALIDATION.md",
+      "bytes": 850,
+      "sha256": "efd616aa31431bc8ce619baac802cb61384f4f6d2eeee88ce80e8f7e28eead98"
+    },
+    {
+      "path": "examples/auxiliary_pillars.json",
+      "bytes": 288,
+      "sha256": "85a0831207797e30ee97bf92b95274b20b741ed1aaf75f437260ead1347cda92"
+    },
+    {
+      "path": "examples/minute_transit.json",
+      "bytes": 500,
+      "sha256": "67424e2ce9e0bf707da4908cebcbeaa8d811fc7c7044edc50329a7a1874e8939"
+    },
+    {
+      "path": "examples/synthetic_transits.py",
+      "bytes": 533,
+      "sha256": "159acf2734b51c72bab9682001e46049369f5ba744e675b446fdd4af4b3bce4c"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 623,
+      "sha256": "1d5ce30e67fdd0cbd5bc48389f29ecff82e62f8c5e92289eb22693bdf6f3320f"
+    },
+    {
+      "path": "rcl/bazi_runtime.rcl",
+      "bytes": 1212,
+      "sha256": "3e2a12019fab5ef42c634dd690ba6b882d6239292208804fd22a07a1a05b359b"
+    },
+    {
+      "path": "tests/test_assist.py",
+      "bytes": 1264,
+      "sha256": "58077471342831619ee537070f59af85d33aee4e557b7c6b73ab7c5e1154eadd"
+    },
+    {
+      "path": "tests/test_auxiliary.py",
+      "bytes": 5238,
+      "sha256": "1c35fd126c4d553fe3eb88e7c455bcfbff35389606312dedc075f7cb7527bca2"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 1210,
+      "sha256": "344b129f68a2e5d97518d141d8212f5c368907d3b721e9dafc53b3be8d87ae04"
+    },
+    {
+      "path": "tests/test_fine_transit.py",
+      "bytes": 6864,
+      "sha256": "717a8acad76d97425645913a38f80bb5f5b70a0aac75a8042043683a96e5ca22"
+    },
+    {
+      "path": "tests/test_semantic.py",
+      "bytes": 695,
+      "sha256": "15a0de78adda993176fa2d116d4aa638aa2b10f96cf1d188faf17e79d2e2dc07"
+    },
+    {
+      "path": "tests/test_state.py",
+      "bytes": 795,
+      "sha256": "df74d0ecdc106c7bc19a46e862be70c750c2c9a989c2665c41a78e4e9a0f5585"
+    },
+    {
+      "path": "tests/test_transit.py",
+      "bytes": 685,
+      "sha256": "a6e5d09fdffd9b6c85535b26f059253150c186b8447a678820c9644106172782"
+    }
+  ]
+}

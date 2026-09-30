@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bazi-runtime"
+version = "0.4.0"
+description = "Bazi interpretation-assist runtime with signal graph, structural frames and incremental transit analysis"
+requires-python = ">=3.10"
+authors = [{name = "TaoWind / ChatGPT"}]
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/xingxuling/bazi-runtime-public"
+
+[project.scripts]
+bazi-runtime = "bazi_runtime.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+include-package-data = false
+packages = ["bazi_runtime"]

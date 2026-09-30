@@ -1,0 +1,23 @@
+{
+  "pillars": {
+    "year": "甲子",
+    "month": "丙寅",
+    "day": "戊辰",
+    "hour": "庚申"
+  },
+  "transit": {
+    "kind": "minute",
+    "year": 2026,
+    "luckPillar": "乙卯",
+    "monthPillar": "戊申",
+    "dayPillar": "甲子",
+    "hourPillar": "丙寅",
+    "minutePillar": "乙丑",
+    "pillarSources": {
+      "minute": "example-only supplied pillar; not a calendar conversion"
+    }
+  },
+  "metadata": {
+    "fixture": "synthetic-symbols-only; not a real birth chart"
+  }
+}
